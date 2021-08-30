@@ -1,0 +1,31 @@
+1. open terminal, create a directory
+2. cd directory
+3. git init --> make directory as local repo
+4. create some files
+5. git add <file-name> --> it will add files to staging area
+6. git commit -m "commit message" ---> it will save files to local repository
+7. git status --> to know whether any files need to be committed present in staging area or not
+
+connect to remote github repository
+
+8. git remote add origin <ssh-link of repo>
+9. git pull origin master --> pull project from remote repo to local repo
+10. git push origin master --> push local repo to remote repo
+
+configuration 
+
+git config --global user.name "USER NAME OF GITHUB ACCOUNT"
+git config --global user.eamil "email"
+
+branches
+
+git branch <branch-name> --> create a branch
+git checkout <branch-name> --> move to that branch
+
+                OR
+git checkout -b <branch-name> --> create branch and move to that branch
+
+merge
+
+git merge <branch-name>
+
