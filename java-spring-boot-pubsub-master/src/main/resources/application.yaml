@@ -1,0 +1,10 @@
+pubsub-example:
+  subscription:
+    name: "projects/dataflow-320606/subscriptions/sample-sub"
+  topic:
+    name: "projects/dataflow-320606/topics/sample"
+
+spring:
+  cloud:
+    gcp:
+      project-id: "dataflow-320606"
